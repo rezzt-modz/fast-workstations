@@ -1,0 +1,60 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# Minecraft / Forge / Fabric runtime
+run/
+run-data/
+runs/
+crash-reports/
+logs/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log y errores de JVM
+hs_err_pid*
+replay_pid*
+
+# Llaves / tokens / secretos (nunca subirlos)
+*.jks
+*.keystore
+*.env
+secrets.properties
+curseforge-api-key.txt
+modrinth-token.txt
+
+# Archivos de texturas fuente (opcional, descomentar si se desea)
+# *.pdn
+# *.psd
+# *.xcf
+
+# Archivos de empaquetado locales
+*.jar
+*.war
+*.ear
+
+# Otros archivos generados
+*.log
+*.cache

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.rezzt.fasteststations.mixins",
+  "compatibilityLevel": "JAVA_${java_version}",
+  "mixins": [
+    "AbstractFurnaceBlockEntityAccessor",
+    "AbstractFurnaceBlockEntityMixin",
+    "BrewingStandBlockEntityAccessor",
+    "BrewingStandBlockEntityMixin",
+    "HopperBlockEntityMixin"
+  ]
+}
